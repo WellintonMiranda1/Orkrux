@@ -32,3 +32,6 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## V18 — correção do background mobile
+O hero mobile usa uma imagem exclusiva (`/public/images/hero-mobile-orkrux-v18.png`). A regra mobile foi colocada no final do CSS para não ser sobrescrita pelo asset responsivo de performance.

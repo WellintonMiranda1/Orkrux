@@ -2479,3 +2479,44 @@ textarea:focus-visible {
 @media (max-width: 920px) {
   .hero-bg { background-image: url('/images/hero-background-1280.webp'); }
 }
+
+/* =========================================================
+   V18 — MOBILE HERO FINAL
+   IMPORTANTE: este bloco fica no FINAL do CSS para sobrepor
+   o asset de performance usado em tablets/telas menores.
+   ========================================================= */
+@media (max-width: 620px) {
+  .hero {
+    min-height: 860px;
+    height: auto;
+    padding-bottom: 56px;
+  }
+
+  .hero-bg {
+    background-image: url('/images/hero-mobile-orkrux-v18.png') !important;
+    background-size: cover !important;
+    background-position: center bottom !important;
+    background-repeat: no-repeat !important;
+    transform: none !important;
+    animation: none !important;
+  }
+
+  .hero-overlay {
+    background:
+      linear-gradient(180deg,
+        rgba(0,5,12,.55) 0%,
+        rgba(1,6,14,.24) 28%,
+        rgba(1,6,14,.08) 48%,
+        rgba(2,8,17,.20) 64%,
+        rgba(2,8,17,.64) 82%,
+        rgba(2,8,17,.90) 100%),
+      linear-gradient(90deg,
+        rgba(0,3,8,.80) 0%,
+        rgba(2,8,17,.38) 62%,
+        rgba(2,8,17,.12) 100%) !important;
+  }
+
+  .hero-content {
+    padding-top: 154px;
+  }
+}
