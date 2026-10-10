@@ -215,13 +215,6 @@ function Hero() {
   return (
     <section className="hero" id="inicio">
       <div className="hero-bg" aria-hidden="true" />
-      <img
-        className="hero-mobile-symbol"
-        src="/brand/orkrux-symbol.png"
-        alt=""
-        aria-hidden="true"
-        decoding="async"
-      />
       <div className="hero-overlay" aria-hidden="true" />
       <div className="hero-content shell">
         <div className="eyebrow-row" data-reveal="left">

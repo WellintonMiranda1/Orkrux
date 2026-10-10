@@ -32,10 +32,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
-
-## V16.1 — Home mobile
-- Símbolo 3D oficial da Orkrux reaparece no hero mobile como camada visual.
-- Background cinematográfico preservado, com enquadramento mobile recalibrado.
-- Overlay refinado para manter legibilidade sem apagar a identidade visual.
-- Desktop permanece inalterado.
